@@ -3,56 +3,59 @@
 Taken at Craft and Commerce, Downtown San Diego, CA.
 Start: 9:09PM.
 
-Build a mobile application.
-Build a sound recorder.
-One that takes input from the phone.
-And outputs a color on the screen based on the decibel level.
+Francis: What do you want to build?
 
-What do we need to get this to work?
+Alex: Build a mobile application.
 
-We are not using iOS, but instead HTML, CSS, and JS with PhoneGap.
-Good? Great!
+F: Okay, be more specific.
 
-So how do we go about this?
+A: Build a sound recorder.
+    One that takes input from the phone.
+    And outputs a color on the screen based on the decibel level.
 
-It's a matter of accessing the sound recording API and the storage API.
-We will do HTML css mockup AFTER we talk about the output.
+F: What do we need to get this to work?
 
-"Hello I'm Francis Batac... French Fries."
+F: We are not using iOS, but instead HTML, CSS, and JS with PhoneGap.
+    Good? 
 
-Higher => Green
-Loud => Yellow
-Loudest => Red
+A: Yeah!
 
-When you playback the sound, the color changes.
-How does the color change?
-How does it look like in your head Alex?
+F: Great!
 
-It stays in a certain color, so it starts with ... at this moment it will be green, but in a psplit second, but it will be higher... so it will change at the moment.
+A: So how do we go about this?
 
-Seeing Sound.
+F: It's a matter of accessing the sound recording API and the storage API.
+    We will do HTML css mockup AFTER we talk about the output.
 
-I can see it in code!
+F: (records into iPhone) "Hello I'm Francis Batac... French Fries."
 
-We map a scale, from softest to loudest.
-We find out what is the minimum and maximum dB that an iPhone can take.
-From there, we assign the three color ranges: soft, regular, high.
-From there, we have a gradient.
-We don't have a color spectrum.
+A: Higher => Green
+    Loud => Yellow
+    Loudest => Red
 
-What is the transition between the color and sound?
+A: When you playback the sound, the color changes.
+    How does the color change?
 
-CSound.
+F: How does it look like in your head Alex?
 
-Let's open it.
+A: It stays in a certain color, so it starts with ... at this moment it will be green, but in a split second, but it will be higher... so it  
+    will change at the moment.
 
-The whole screen will show the average color of each track. Is this correct?
+F: Seeing Sound. I can see it in code!
+    We map a scale, from softest to loudest.
+    We find out what is the minimum and maximum dB that an iPhone can take.
+    From there, we assign the three color ranges: soft, regular, high.
+    From there, we have a gradient.
+    We don't have a color spectrum.
+    What is the transition between the color and sound?
+    CSound. Let's open it. The whole screen will show the average color of each track. Is this correct?
 
-One whole screen will represent a track.
+A: One whole screen will represent a track.
 To get to a new track, you swipe.
-On the start screen it will be black background and a white  circle.
+On the start screen it will be black background and a white circle.
 
-Will I be able to save my sounds and look at them alter?
-Yes.
+F: Will I be able to save my sounds and look at them alter?
+A: Yes.
 
-
+Francis works on building a Phonegap application. He is reading documentation on sound recording API and store API for iPhone.
+Alex is working on HTML CSS Prototype and with Photoshop to get everything together. (9:40PM)
