@@ -1,4 +1,4 @@
-# the-new-idea 
+# CSound 
 
 Taken at Craft and Commerce, Downtown San Diego, CA.
 Start: 9:09PM.
